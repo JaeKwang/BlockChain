@@ -1,4 +1,5 @@
-const API_KEY = '25fc85537c3147fba62a2d57b0b9e7bd';
+import {API_KEY} from "./config.js";
+
 const endPoint = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`
 const newsList = document.getElementById("news-list");
 
